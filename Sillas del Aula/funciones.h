@@ -12,3 +12,4 @@ int verificaLibre(int sillasAula[], int , int laSilla, int valorInicial);
 int ocuparSilla(int sillasAula[], int , int laSilla,int legajo);
 int mostrarSillaEdadMax (int sillas[], int tam, int maxEdad );
 void ordenarArrayPorEdad(int sillasAula[],int edades[], int );
+void MostrarViejos(int sillas[], int edad[], int tam);

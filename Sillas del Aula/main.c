@@ -20,6 +20,7 @@ int main()
     ordenarArrayPorSilla(sillasAula,edadesAula, S);
     ordenarArrayPorEdad(sillasAula,edadesAula, S);
     mostrarArray(sillasAula,edadesAula, S);
+    MostrarViejos(sillasAula,edadesAula,S);
 
    return 0;
 }

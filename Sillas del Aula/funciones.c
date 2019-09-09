@@ -145,3 +145,18 @@ void ordenarArrayPorEdad(int sillasAula[],int edad[], int tam)
         }
     }
 }
+
+void MostrarViejos(int sillas[], int edad[], int tam)
+{
+    int i;
+    int maxEdad;
+    maxEdad = buscarMaximo(edad, tam);
+
+    for(i = 0; i < tam; i++)
+    {
+        if(maxEdad == edad[i])
+        {
+            printf("El mas viejo es: %d y esta sentado en: %d", maxEdad,sillas[i]);
+        }
+    }
+}
